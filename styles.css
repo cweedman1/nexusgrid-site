@@ -798,3 +798,327 @@ img {
   background-position: center 58%;
 
 }
+/* =========================
+   TECHNOLOGY HERO
+========================= */
+
+.technology-hero::before {
+
+  background:
+
+    linear-gradient(
+      90deg,
+      rgba(220,228,238,0.74) 0%,
+      rgba(220,228,238,0.54) 45%,
+      rgba(220,228,238,0.24) 100%
+    ),
+
+    url("assets/images/technology_hero.jpg");
+
+  background-size: cover;
+
+  background-position: center 52%;
+
+}
+/* =========================
+   DEMONSTRATIONS HERO
+========================= */
+
+.demonstrations-hero::before {
+
+  background:
+
+    linear-gradient(
+      90deg,
+      rgba(214,222,234,0.78) 0%,
+      rgba(214,222,234,0.58) 42%,
+      rgba(214,222,234,0.28) 100%
+    ),
+
+    url("assets/images/demonstration_hero.jpg");
+
+  background-size: cover;
+
+  background-position: center center;
+
+}
+
+
+/* =========================
+   DEMO VISUALS
+========================= */
+
+.demo-visual {
+
+  margin-top: 3rem;
+
+}
+
+.demo-visual img {
+
+  width: 100%;
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(255,255,255,0.5);
+
+  box-shadow: var(--shadow);
+
+  background: rgba(255,255,255,0.5);
+
+}
+
+
+/* =========================
+   TERMINAL DEMO
+========================= */
+
+.terminal-demo img {
+
+  background: #000;
+
+  padding: 1rem;
+
+}
+
+
+/* =========================
+   ALTERNATING SECTIONS
+========================= */
+
+.alt-section {
+
+  background: rgba(255,255,255,0.18);
+
+}
+
+
+/* =========================
+   DEMO LIST
+========================= */
+
+.demo-list {
+
+  margin-top: 2rem;
+
+  padding-left: 1.5rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.2rem;
+
+}
+
+.demo-list li {
+
+  color: var(--muted);
+
+  line-height: 1.8;
+
+  font-size: 1.05rem;
+
+}
+
+
+/* =========================
+   METHODOLOGY SECTION
+========================= */
+
+.methodology-section {
+
+  padding-bottom: 8rem;
+
+}
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+  .hero h1 {
+
+    font-size: 4.6rem;
+
+    line-height: 0.95;
+
+  }
+
+  .info-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .hero {
+
+    min-height: 88vh;
+
+  }
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+
+  .nav-container {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 1.5rem;
+
+  }
+
+  .nav-links {
+
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+  }
+
+  /* HERO */
+
+  .hero {
+
+    min-height: auto;
+
+    padding:
+      10rem 1.5rem 6rem;
+
+  }
+
+  .hero-content {
+
+    width: 100%;
+
+  }
+
+  .hero h1 {
+
+    font-size: 3.2rem;
+
+    line-height: 0.95;
+
+    margin-bottom: 1.5rem;
+
+  }
+
+  .hero p {
+
+    font-size: 1.05rem;
+
+    line-height: 1.7;
+
+    max-width: 100%;
+
+  }
+
+  .hero-buttons {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 1rem;
+
+  }
+
+  .btn-primary,
+  .btn-secondary {
+
+    width: 100%;
+
+    justify-content: center;
+
+  }
+
+  /* INFO STRIP */
+
+  .info-strip {
+
+    margin:
+      -4rem auto 5rem auto;
+
+  }
+
+  .info-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+  }
+
+  /* CONTENT SECTIONS */
+
+  .content-section {
+
+    padding:
+      5rem 1.5rem;
+
+  }
+
+  .content-block h2 {
+
+    font-size: 2.8rem;
+
+    line-height: 1.02;
+
+  }
+
+  .content-block p {
+
+    font-size: 1.05rem;
+
+  }
+
+  /* FOOTER */
+
+  .footer {
+
+    padding:
+      4rem 1.5rem;
+
+    text-align: center;
+
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+
+    font-size: 2.5rem;
+
+  }
+
+  .content-block h2 {
+
+    font-size: 2.2rem;
+
+  }
+
+  .navbar {
+
+    padding:
+      1.25rem 1rem;
+
+  }
+
+}
