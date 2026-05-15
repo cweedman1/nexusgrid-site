@@ -1,0 +1,204 @@
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width: 1100px) {
+
+  .hero {
+
+    min-height: 88vh;
+
+  }
+
+  .hero h1 {
+
+    font-size: 4.6rem;
+
+    line-height: 0.95;
+
+  }
+
+  .info-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+
+  .nav-container {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 1.5rem;
+
+  }
+
+  .nav-links {
+
+    display: none;
+
+  }
+
+  .brand img {
+
+    width: 58px;
+
+  }
+
+  /* HERO */
+
+  .hero {
+
+    min-height: auto;
+
+    padding:
+      10rem 1.5rem 6rem;
+
+  }
+
+  .hero-content {
+
+    width: 100%;
+
+  }
+
+  .hero h1 {
+
+    font-size: 3.2rem;
+
+    line-height: 0.95;
+
+    margin-bottom: 1.5rem;
+
+  }
+
+  .hero p {
+
+    font-size: 1.05rem;
+
+    line-height: 1.7;
+
+    max-width: 100%;
+
+  }
+
+  .hero-buttons {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 1rem;
+
+  }
+
+  .btn-primary,
+  .btn-secondary {
+
+    width: 100%;
+
+    text-align: center;
+
+    justify-content: center;
+
+  }
+
+  /* INFO STRIP */
+
+  .info-strip {
+
+    margin:
+      -4rem auto 5rem auto;
+
+  }
+
+  .info-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+  }
+
+  /* CONTENT SECTIONS */
+
+  .content-section {
+
+    padding:
+      5rem 1.5rem;
+
+  }
+
+  .content-container {
+
+    gap: 80px;
+
+  }
+
+  .content-block h2 {
+
+    font-size: 2.8rem;
+
+    line-height: 1.02;
+
+  }
+
+  .content-block p {
+
+    font-size: 1.05rem;
+
+    line-height: 1.8;
+
+  }
+
+  /* FOOTER */
+
+  .footer,
+  .site-footer {
+
+    padding:
+      4rem 1.5rem;
+
+    text-align: center;
+
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+
+    font-size: 2.5rem;
+
+  }
+
+  .content-block h2 {
+
+    font-size: 2.2rem;
+
+  }
+
+  .navbar {
+
+    padding:
+      1.25rem 1rem;
+
+  }
+
+}

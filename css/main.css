@@ -1,0 +1,104 @@
+:root {
+
+  --bg: #eef2f5;
+  --surface: rgba(255,255,255,0.78);
+
+  --text: #13202d;
+  --muted: #536170;
+
+  --accent: #43c0ff;
+  --accent-soft: #86d9ff;
+
+  --border: rgba(19,32,45,0.08);
+
+  --shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  font-family: 'Inter', sans-serif;
+
+  background: var(--bg);
+  color: var(--text);
+
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* =========================
+   ANIMATIONS
+========================== */
+
+@keyframes pulseGlow {
+
+  0% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+
+  100% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+}
+
+
+
+.site-footer {
+
+  padding: 4rem 1rem 3rem;
+
+  text-align: center;
+
+  color: var(--muted);
+
+  font-size: 0.95rem;
+
+  line-height: 1.7;
+}
+
+.site-footer a {
+
+  color: inherit;
+
+  text-decoration: underline;
+
+  transition: opacity 0.25s ease;
+}
+
+.site-footer a:hover {
+
+  opacity: 0.7;
+}
+
+.footer-sub {
+
+  margin-top: 0.35rem;
+
+  font-size: 0.92rem;
+}

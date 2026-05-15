@@ -1,0 +1,170 @@
+/* =========================
+   INFO STRIP
+========================== */
+
+.info-strip {
+
+  width: min(1400px, 92%);
+
+  margin: -7rem auto 7rem auto;
+
+  position: relative;
+
+  z-index: 10;
+}
+
+.info-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+
+  align-items: stretch;
+
+  justify-content: center;
+
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+}
+
+.info-card {
+
+  padding: 2.2rem;
+
+  border-radius: 24px;
+
+  background: var(--surface);
+
+  backdrop-filter: blur(14px);
+
+  border:
+    1px solid rgba(255,255,255,0.55);
+
+  box-shadow: var(--shadow);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.info-card:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.12);
+}
+
+.info-card h3 {
+
+  font-size: 1.08rem;
+
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+
+  color: var(--muted);
+
+  line-height: 1.75;
+
+  font-size: 0.98rem;
+}
+/* =========================
+   DEMO VISUALS
+========================= */
+
+.demo-visual {
+
+  margin-top: 3rem;
+
+}
+
+.demo-visual img {
+
+  width: 100%;
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(255,255,255,0.5);
+
+  box-shadow: var(--shadow);
+
+  background: rgba(255,255,255,0.5);
+
+}
+
+
+/* =========================
+   TERMINAL DEMO
+========================= */
+
+.terminal-demo img {
+
+  background: #000;
+
+  padding: 1rem;
+
+}
+
+
+/* =========================
+   ALTERNATING SECTIONS
+========================= */
+
+.alt-section {
+
+  background: rgba(255,255,255,0.18);
+
+}
+
+
+/* =========================
+   DEMO LIST
+========================= */
+
+.demo-list {
+
+  margin-top: 2rem;
+
+  padding-left: 1.5rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.2rem;
+
+}
+
+.demo-list li {
+
+  color: var(--muted);
+
+  line-height: 1.8;
+
+  font-size: 1.05rem;
+
+}
+
+
+/* =========================
+   METHODOLOGY SECTION
+========================= */
+
+.methodology-section {
+
+  padding-bottom: 8rem;
+
+}

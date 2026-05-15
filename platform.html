@@ -3,8 +3,16 @@
 
 <head>
 
+  <!-- =========================
+       META
+  ========================== -->
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
   <!-- =========================
        PRIMARY SEO
@@ -27,6 +35,11 @@
   <meta
     name="author"
     content="Nexus Grid"
+  />
+
+  <meta
+    name="robots"
+    content="index, follow"
   />
 
   <!-- =========================
@@ -55,7 +68,7 @@
 
   <meta
     property="og:image"
-    content="https://nexusgrid.systems/assets/images/platform_hero.jpg"
+    content="https://nexusgrid.systems/assets/images/platform_hero.webp"
   />
 
   <!-- =========================
@@ -79,7 +92,7 @@
 
   <meta
     name="twitter:image"
-    content="https://nexusgrid.systems/assets/images/platform_hero.jpg"
+    content="https://nexusgrid.systems/assets/images/platform_hero.webp"
   />
 
   <!-- =========================
@@ -92,18 +105,82 @@
   />
 
   <!-- =========================
-       FONTS + CSS
+       FONTS
   ========================== -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="styles.css" />
+  <!-- =========================
+       CSS
+  ========================== -->
+
+  <link
+    rel="stylesheet"
+    href="css/main.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/nav.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/hero.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/sections.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/cards.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/utilities.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/responsive.css"
+  />
+
+  <!-- =========================
+       JSON-LD
+  ========================== -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Nexus Grid Platform",
+    "url": "https://nexusgrid.systems/platform.html",
+    "description": "Topology-aware orchestration systems for resilient transmission infrastructure operations and modernization.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nexus Grid",
+      "url": "https://nexusgrid.systems"
+    }
+  }
+  </script>
 
 </head>
 
@@ -140,7 +217,7 @@
 
       <div class="nav-links">
 
-        <a href="platform.html">Platform</a>
+        <a href="platform.html" class="active">Platform</a>
 
         <a href="solutions.html">Solutions</a>
 

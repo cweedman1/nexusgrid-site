@@ -3,6 +3,10 @@
 
 <head>
 
+  <!-- =========================
+       META
+  ========================== -->
+
   <meta charset="UTF-8" />
 
   <meta
@@ -33,13 +37,18 @@
     content="Nexus Grid"
   />
 
+  <meta
+    name="robots"
+    content="index, follow"
+  />
+
   <!-- =========================
        OPEN GRAPH
   ========================== -->
 
   <meta
     property="og:title"
-    content="Nexus Grid Demonstrations"
+    content="Nexus Grid Demonstrations — Operational Coordination Modeling"
   />
 
   <meta
@@ -59,7 +68,7 @@
 
   <meta
     property="og:image"
-    content="https://nexusgrid.systems/assets/images/demonstration_hero.jpg"
+    content="https://nexusgrid.systems/assets/images/demonstration_hero.webp"
   />
 
   <!-- =========================
@@ -81,20 +90,97 @@
     content="Operational coordination demonstrations modeling restoration behavior, topology propagation, and constrained infrastructure recovery."
   />
 
+  <meta
+    name="twitter:image"
+    content="https://nexusgrid.systems/assets/images/demonstration_hero.webp"
+  />
+
   <!-- =========================
-       FONTS + CSS
+       CANONICAL
   ========================== -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="canonical"
+    href="https://nexusgrid.systems/demonstrations.html"
+  />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- =========================
+       FONTS
+  ========================== -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="styles.css" />
+  <!-- =========================
+       CSS
+  ========================== -->
+
+  <link
+    rel="stylesheet"
+    href="css/main.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/nav.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/hero.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/sections.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/cards.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/utilities.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/responsive.css"
+  />
+
+  <!-- =========================
+       JSON-LD
+  ========================== -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Nexus Grid Demonstrations",
+    "url": "https://nexusgrid.systems/demonstrations.html",
+    "description": "Operational coordination demonstrations modeling restoration sequencing, topology-aware orchestration, infrastructure propagation behavior, and constrained transmission recovery environments.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nexus Grid",
+      "url": "https://nexusgrid.systems"
+    }
+  }
+  </script>
 
 </head>
 
@@ -137,7 +223,7 @@
 
         <a href="technology.html">Technology</a>
 
-        <a href="demonstrations.html">Demonstrations</a>
+        <a href="demonstrations.html" class="active">Demonstrations</a>
 
         <a href="about.html">About</a>
 
@@ -178,6 +264,7 @@
           href="https://github.com/evo-engineering-llc/hlx-grid-demo"
           class="btn-primary"
           target="_blank"
+          rel="noopener noreferrer"
         >
           View Demo Repository
         </a>
@@ -286,8 +373,10 @@
       <div class="demo-visual">
 
         <img
-          src="assets/images/restoration_comparison.png"
+          src="assets/images/restoration_comparison.webp"
           alt="Restoration comparison demonstration"
+          loading="lazy"
+          decoding="async"
         />
 
       </div>
@@ -333,8 +422,10 @@
       <div class="demo-visual">
 
         <img
-          src="assets/images/restoration_plateau.png"
+          src="assets/images/restoration_plateau.webp"
           alt="Restoration plateau progression"
+          loading="lazy"
+          decoding="async"
         />
 
       </div>
@@ -380,8 +471,10 @@
       <div class="demo-visual terminal-demo">
 
         <img
-          src="assets/images/orchestration_cli.png"
+          src="assets/images/orchestration_cli.webp"
           alt="Operational orchestration CLI output"
+          loading="lazy"
+          decoding="async"
         />
 
       </div>
@@ -429,8 +522,10 @@
       <div class="demo-visual">
 
         <img
-          src="assets/images/restoration_progression.png"
+          src="assets/images/restoration_progression.webp"
           alt="Operational restoration progression"
+          loading="lazy"
+          decoding="async"
         />
 
       </div>

@@ -3,8 +3,16 @@
 
 <head>
 
+  <!-- =========================
+       META
+  ========================== -->
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
   <!-- =========================
        PRIMARY SEO
@@ -29,13 +37,18 @@
     content="Nexus Grid"
   />
 
+  <meta
+    name="robots"
+    content="index, follow"
+  />
+
   <!-- =========================
        OPEN GRAPH
   ========================== -->
 
   <meta
     property="og:title"
-    content="Nexus Grid Solutions"
+    content="Nexus Grid Solutions — Transmission Infrastructure Applications"
   />
 
   <meta
@@ -55,7 +68,7 @@
 
   <meta
     property="og:image"
-    content="https://nexusgrid.systems/assets/images/solution_hero.jpg"
+    content="https://nexusgrid.systems/assets/images/solution_hero.webp"
   />
 
   <!-- =========================
@@ -79,7 +92,7 @@
 
   <meta
     name="twitter:image"
-    content="https://nexusgrid.systems/assets/images/solution_hero.jpg"
+    content="https://nexusgrid.systems/assets/images/solution_hero.webp"
   />
 
   <!-- =========================
@@ -92,18 +105,82 @@
   />
 
   <!-- =========================
-       FONTS + CSS
+       FONTS
   ========================== -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="styles.css" />
+  <!-- =========================
+       CSS
+  ========================== -->
+
+  <link
+    rel="stylesheet"
+    href="css/main.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/nav.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/hero.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/sections.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/cards.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/utilities.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/responsive.css"
+  />
+
+  <!-- =========================
+       JSON-LD
+  ========================== -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Nexus Grid Solutions",
+    "url": "https://nexusgrid.systems/solutions.html",
+    "description": "Operational infrastructure solutions for resilient transmission environments.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nexus Grid",
+      "url": "https://nexusgrid.systems"
+    }
+  }
+  </script>
 
 </head>
 
@@ -142,7 +219,7 @@
 
         <a href="platform.html">Platform</a>
 
-        <a href="solutions.html">Solutions</a>
+        <a href="solutions.html" class="active">Solutions</a>
 
         <a href="technology.html">Technology</a>
 
